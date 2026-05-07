@@ -50,7 +50,7 @@ export const Medications: React.FC = () => {
       id: 6,
       name: "Гепарин",
       patient: "Мельник А.В.",
-      amount: "5000 ОД",
+      amount: "4000 ОД",
       time: "13:10",
     },
     {
