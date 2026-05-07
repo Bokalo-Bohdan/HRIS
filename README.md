@@ -1,57 +1,50 @@
-##MedHRIS — Medical Personnel Management System
+# MedHRIS — Medical Personnel Management System
+
 MedHRIS is a specialized internal HR platform designed for medical institutions to automate shift tracking, medication usage logging, and personnel earnings monitoring.
 
-##Core Functionality
-Smart Dashboard: Interactive control panel with live shift tracking. The system automatically calculates work progress based on a 2/2 rotation schedule and real-time clock synchronization.
+## 🔗 Live Demo
 
-Automated Scheduling: Calendar grid featuring shift visualization. Includes automated calculation of completed workdays and remaining shifts for the current month.
+You can view the live project here: [https://bokalo-bohdan.github.io/HRIS/](https://bokalo-bohdan.github.io/HRIS/)
 
-Medication Inventory: Usage logging system with critical stock level tracking and automated alerts for supply shortages.
+## Core Functionality
 
-Payroll Processing: Transparent financial tracking for each working day. Automated calculation of total earnings based on hours worked and hourly rates.
+- **Smart Dashboard**: Interactive control panel with live shift tracking. The system automatically calculates work progress based on a 2/2 rotation schedule and real-time clock synchronization.
 
-Animated UX: Implementation of the GSAP library for fluid page transitions and dynamic interface element rendering.
+- **Automated Scheduling**: Calendar grid featuring shift visualization. Includes automated calculation of completed workdays and remaining shifts for the current month.
 
-##Technical Stack
-Frontend: React 18, TypeScript
+- **Medication Inventory**: Usage logging system with critical stock level tracking and automated alerts for supply shortages.
 
-Styling: CSS3 (Modern Flexbox & Grid, CSS Variables)
+- **Payroll Processing**: Transparent financial tracking for each working day. Automated calculation of total earnings based on hours worked and hourly rates.
 
-Animations: GSAP (GreenSock Animation Platform)
+- **Animated UX**: Implementation of the GSAP library for fluid page transitions and dynamic interface element rendering.
 
-Build Tool: Vite
+## Technical Stack
 
-Navigation: React Router (State-managed SPA architecture)
+- **Frontend**: React 18, TypeScript
 
-##Installation and Setup
-Clone the repository:
+- **Styling**: CSS3 (Modern Flexbox & Grid, CSS Variables)
 
-git clone https://github.com/your-username/med-hris.git
-Navigate to the project directory:
+- **Animations**: GSAP (GreenSock Animation Platform)
 
-cd med-hris
-Install dependencies:
+- **Build Tool**: Vite
 
-npm install
-Launch the development server:
+- **Navigation**: React Router (State-managed SPA architecture)
 
-npm run dev
-Open http://localhost:5173 in your browser.
+## Installation and Setup
 
-##Project Structure
-src/components/ — Reusable interface blocks (Sidebar, TopBar, AnimatedPage).
+To run this project locally, follow these steps:
 
-src/pages/ — Primary application screens (Dashboard, Schedule, Medications, Payroll).
+1. **Clone the repository:**
+   git clone [https://github.com/bokalo-bohdan/HRIS.git](https://github.com/bokalo-bohdan/HRIS.git)
 
-src/styles/ — Global styling and CSS variables.
+2. **Navigate to the project directory:**
+   cd HRIS
 
-src/types/ — TypeScript interface definitions and type guards.
+3. **Install dependencies:**
+   npm install
 
-##Roadmap
-Integration with backend services (Firebase/PostgreSQL).
+4. **Launch the development server:**
+   npm run dev
 
-Role-based access control (Administrator/Nurse).
-
-PDF report generation for payroll and inventory.
-
-Real-time notification system for shift changes.
+5. **Open in browser:**
+   The application will be available at http://localhost:5173.
