@@ -39,7 +39,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
             setActivePage("dashboard");
           }}
         >
-          Дашборд
+          Головна
         </a>
         <a
           href="#"
